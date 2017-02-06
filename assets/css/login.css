@@ -1,0 +1,63 @@
+.div_login {
+	width: 350px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background: white;
+}
+
+.div_log_title {
+
+}
+
+.h2_log_title {
+	padding: 25px;
+    text-align: center;
+}
+
+.input_text {
+	width: 300px;
+    height: 38px;
+    line-height: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.input_bio {
+	width: 300px;
+    height: 78px;
+    line-height: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.input_email {
+	width: 300px;
+    height: 38px;
+    line-height: 28px;
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.input_pwd {
+	width: 300px;
+    height: 38px;
+    line-height: 28px;
+    margin-left: 25px;
+}
+
+.a_login {
+	background: #134777;
+	color: white;
+	text-decoration: none;
+	padding: 9px 123px;
+}
+
+.a_login:hover {
+	background: #ac4777;
+}
+
+.a_forgot {
+	
+}

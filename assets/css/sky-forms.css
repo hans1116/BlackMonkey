@@ -1,0 +1,58 @@
+/**/
+/* font */
+/**/
+
+/**/
+/* defaults */
+/**/
+.sky-form {
+	margin: 0;
+	outline: none;
+	box-shadow: 0 0 7px rgba(0,0,0,.3);
+	font-size: 13px;
+	color: #555;
+}
+
+.sky-form fieldset {
+	display: block;
+	padding: 25px 30px 25px;
+	border: none;
+	background: rgba(255,255,255,.9);
+}
+.sky-form fieldset + fieldset {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+.sky-form section {
+	margin-bottom: 15px;
+}
+.sky-form section input{
+	width: 100%;
+	height: 35px;
+	padding: 5px 5px;
+	padding-bottom: 10px;
+	border-style: none;
+	border-bottom: 1px solid  #BEBEBE;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+.sky-form section input:focus{
+	border-bottom-left-radius: 3px;
+	outline-color: white;
+	border-bottom: 1px solid #004a7a;
+}
+.sky-form label{
+	margin-bottom: 0px !important;
+	font-size: 25px;
+	padding: 5px 5px;
+	color: #004a7a;
+}
+
+.sky-form label:hover{
+	color:#3276b1;
+	cursor: pointer;
+}
+.sky-form button{
+	padding:6px 30px !important;
+}

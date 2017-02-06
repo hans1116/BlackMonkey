@@ -1,0 +1,167 @@
+@import url('font.css');
+
+#div_navigation {
+	padding-left: 30%;
+	text-align: center;
+    background: #303030;
+    display: block;
+    width: 100%;
+    float: left;
+    max-height: 45px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+
+
+#div_navigation ul, #div_navigation li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#div_navigation ul li {
+    float: left;
+    position: relative;
+}
+#div_navigation ul, #div_navigation li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#div_navigation ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 20px;
+}
+
+#div_navigation ul li a:hover, #div_navigation ul li:hover > a {
+    background: #72b626;
+}
+
+#div_splash {
+	background: #F2F2F2;
+}
+
+.a_btn_signup:hover {
+	color : #134777;
+	background-color: #ffffff;
+}
+
+.a_btn_signup {
+	text-decoration: none;
+	color : white;
+	background-color: #134777;
+	font-size: 13px;
+	font-weight: bold;
+	padding : 6px 6px;
+	border : 1px solid #ffffff;
+	border-radius: 5px;
+}
+
+.a_btn_signup_clicked {
+	text-decoration: none;
+	color : #134777;
+	background-color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	padding : 6px 6px;
+	border : 1px solid #ffffff;
+	border-radius: 5px;
+}
+
+.a_btn_login:hover {
+	color : #134777;
+	background-color: #ffffff;
+}
+.a_btn_login {
+	text-decoration: none;
+	color : white;
+	background-color: #134777;
+	font-size: 13px;
+	font-weight: bold;
+	padding : 6px 6px;
+	border : 1px solid #ffffff;
+	border-radius: 5px;
+}
+.a_btn_login_clicked {
+	text-decoration: none;
+	color : #134777;
+	background-color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	padding : 6px 6px;
+	border : 1px solid #ffffff;
+	border-radius: 5px;
+}
+
+
+.search-box{
+	/*border: 3px white solid;*/
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	width: inherit;
+	float: left;
+	max-height: 60px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+}
+
+
+#current,#current:hover,#div_nav ul li:focus{
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 3px solid #004a7a;
+	background-color: rgba(0,0,0,0);
+	cursor:default;
+}
+
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../plugin/font-awesome/font/fontawesome-webfont.eot?v=3.2.1');
+	src: url('../plugin/font-awesome/font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../plugin/font-awesome/font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../plugin/font-awesome/font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../plugin/font-awesome/font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	margin-top: 0;
+}
+
+i.icon-medkit {}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+	*margin-right: .3em;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	text-decoration: inherit;
+	display: inline-block;
+	speak: none;
+}
+
+
+

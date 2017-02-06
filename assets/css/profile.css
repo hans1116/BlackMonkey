@@ -1,0 +1,215 @@
+.div_profile {
+	float:left;
+	width: 100%;
+    margin-top: 0px;
+    background: white;
+    padding-bottom: 20px;
+	border-radius: 5px;
+
+}
+.div_profile_body{
+	font-size: 13px;
+}
+.div_profile_title {
+	margin-top:20px;
+}
+
+.div_profile_menu {
+	padding-top: 110px;
+}
+.div_profile_menu_item {
+	background-color: #F2F2F2;
+	padding : 10px 10px;
+	border: 1px solid #d2c2a7;
+}
+.div_profile_feed {
+	width: 98%;
+	margin-top: 30px;
+	margin-left: 5px;
+    border-radius: 5px;
+}
+.div_profile_feed_left {
+	border: 1px solid #d2c2a7;
+	border-radius: 5px;
+    background-color: #f3eef1;
+
+}
+
+.div_profile_feed_right {
+	background-color: #f3eef1;
+	border: 1px solid #d2c2a7;
+    border-radius: 5px;
+}
+.div_profile_feed_title {
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.div_profile_feed_title:last-child{
+    margin-left: 20px;
+}
+.div_profile_feed_title_text {
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	width:100%;
+	margin-top:80px;
+	margin-left:25px;
+}
+
+.div_profile_feed_text {
+	color:#020e65;
+	font-size:14px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 25px;
+    margin-right: 10px;
+    border-bottom: 1px solid #f9f9f9;
+}
+.div_profile_feed_text_content {
+	color:gray;
+	font-size:14px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+.div_profile_feed_photos {
+	margin-top: 15px;
+	margin-left: 25px;
+    margin-right: 25px;
+	font-weight: bold;
+	color:gray;
+    border-radius: 5px;
+}
+.div_profile_feed_photos img{
+    border-radius: 5px;
+}
+.div_profile_users {
+	width: 85%;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.div_profile_user {
+	float: left;
+	margin-right: 2%;
+    width: 31%;
+    border: 1px solid #aba2a7;
+}
+.div_profile_user_img {
+	width: 70px;
+    margin: 0px auto;
+}
+.img_profile_user_img{
+	margin-top: 35px;
+	position: absolute;
+    width: 70px;
+    height: 70px;
+}
+.div_profile_user_name{
+	margin-top: 35px;
+	text-align: center;
+	color:#020e65;
+}
+.div_profile_user_comment{
+	margin-top: 15px;
+	text-align: center;
+	color:gray;
+	font-size: 11px;
+}
+.div_profile_user_btn{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.a_profile_user_btn {
+	font-size:12px;
+	background: white;
+	color: #020e65;
+	text-decoration: none;
+	padding: 9px 10px;
+	margin-right:5px;
+	border: 1px solid #134777;
+	border-radius: 0.3em;
+}
+.a_profile_user_btn:hover {
+	background: #134777;
+	color: white;
+}
+
+.a_profile_edit {
+	background: #134777;
+	color: white;
+	text-decoration: none;
+	padding: 9px 25px;
+	margin-right:10px;
+	font-size: 14px;
+    border-radius: 5px;
+}
+.a_profile_edit:hover {
+	background: #ac4777;
+}
+
+.a_profile_picture {
+	background: white;
+	color: #134777;
+	text-decoration: none;
+	padding: 9px 25px;
+	border:1px solid #134777;
+}
+.a_profile_picture:hover {
+	background: #134777;
+	color: white;
+}
+
+.a_profile_cover_img {
+	background: white;
+	color: #134777;
+	text-decoration: none;
+	padding: 9px 26px;
+	border:1px solid #134777;
+}
+.a_profile_cover_img:hover {
+	background: #134777;
+	color: white;
+}
+
+.a_profile_btn {
+	text-decoration: none;
+	color : white;
+	background-color: #134777;
+	font-size: 12px;
+	font-weight: bold;
+	padding : 7px 7px;
+	border : 1px solid #ffffff;
+	border-radius: 5px;
+}
+.a_profile_btn:hover {
+	background-color: white;
+	color: #134777;
+}
+
+.a_profile_btn_clicked {
+	text-decoration: none;
+	color : #134777;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding : 7px 7px;
+	border : 1px solid #134777;
+	border-radius: 5px;
+}
+
+.input_feed_comment {
+	width: 82%;
+    height: 38px;
+    line-height: 28px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+    margin-top: 22px;
+    background-color: #ccc;
+    border: 1px;
+    border-radius: 5px;
+}

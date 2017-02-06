@@ -1,0 +1,62 @@
+@import url('base.css');
+@import url('weeks.css');
+@import url('home.css');
+@import url('login.css');
+@import url('profile.css');
+@import url('other.css');
+
+@import url('../plugin/bootstrap/css/bootstrap.css');
+@import url('app.css');
+
+
+#current,#current:hover,#div_nav ul li:focus{
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 3px solid #004a7a;
+    background-color: rgba(0,0,0,0);
+    cursor:default;
+}
+
+/* -----------Categories bar ---------*/
+
+.cat-title{
+    font-size: 15px;
+
+}
+.cat-bar ul{
+    list-style: none;
+}
+.cat-bar ul li{
+    margin-bottom: 10px;
+    margin: 0px 20px 10px 15px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    padding: 6px 3px 6px 15px;
+    vertical-align: middle;
+}
+
+.cat-bar ul li:hover i,.cat-bar li:hover span,.cat-bar ul li:hover{
+    color: #004a7a;
+    cursor: pointer;
+}
+
+.cat-bar ul li i span{
+    margin-left:5px ;
+    font-size: 15px;
+    color: #555;
+}
+
+
+
+.cat-bar ul li img{
+    width: 13px;
+    height: 13px;
+    /*margin: 8px 3px 8px 20px;*/
+    margin-bottom: 3px;
+}
+
+.cat-bar ul li i{
+    font-size: 15px;
+    color: #CA0002;
+    width: auto;
+}
